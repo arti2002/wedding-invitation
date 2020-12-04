@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html>
+<title>Wedding Invitation</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size:contain;
+}
+.bgimg {background-image: url("https://images.unsplash.com/photo-1542379510-1026e928ed4f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTQ2fHx3ZWRkaW5nJTIwY291cGxlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")}
+
+</style>
+<body>
+
+
+<header class="display-container wide bgimg grayscale-min" id="home" style=" text-shadow: 2px 2px 2px black">
+  <div class="display-middle text-white center">
+    <h1 class="jumbo">STEFAN & ELENA</h1>
+    <h2 >ARE GETTING MARRIED</h2>
+    <h2><b>15.01.2021</b></h2>
+  </div>
+</header>
+
+
+<div class="bottom hide-small">
+  <div class="bar white center padding opacity-min hover-opacity-off">
+    <a href="#home" style="width:25%" class="bar-item button">Home</a>
+    <a href="#us" style="width:25%" class="bar-item button">Harnam & Harpreet</a>
+    <a href="#wedding" style="width:25%" class="bar-item button">Wedding</a>
+    <a href="#rsvp" style="width:25%" class="bar-item button hover-black">RSVP</a>
+  </div>
+</div>
+
+
+<div class="container padding-64 pale-red grayscale-min" id="us">
+  <div class="content">
+    <h1 class="center text-grey"><b>Stefan & Elena</b></h1>
+    
+    <p><i>You all know us. And we all know you. We are getting married lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+      laboris nisi ut aliquip ex ea commodo consequat.</i>
+    </p><br>
+    <p class="center"><a href="#wedding" class="button black round padding-large large">Wedding Details</a></p>
+  </div>
+</div>
+
+
+
+
+<div class="container padding-64 pale-red grayscale-min center" id="wedding">
+  <div class="content">
+    <h1 class="text-grey"><b>THE WEDDING</b></h1>
+    <img class="round-large grayscale-min" src="" style="width:100%;margin:64px 0">
+    <div class="row">
+      <div class="half">
+        <h2><u>TIME</u> </h2>
+        <p>Wedding Ceremony - 1:00pm</p>
+        <p>Reception & Dinner - 5:00pm</p>
+      </div>
+      <div class="half">
+        <h2><u> PLACE</u></h2>
+        <p>JUHU BEACH</p>
+        <p>THE REPTO HOTEL</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- RSVP section -->
+<div class="container padding-64 pale-red center wide" id="rsvp">
+  <h1>HOPE YOU CAN MAKE IT!</h1>
+  <p class="large">Kindly Respond By last December, 2020</p>
+  <p class="xlarge">
+    <button onclick="document.getElementById('id01').style.display='block'" class="button round red opacity hover-opacity-off" style="padding:8px 60px">RSVP</button>
+  </p>
+</div>
+
+<!-- RSVP modal -->
+<div id="id01" class="modal">
+  <div class="modal-content card-4 animate-zoom" style="padding:32px;max-width:600px">
+    <div class="container white center">
+      <h1 class="wide">WOULD YOU JOIN US?</h1>
+      <p>We really do hope you to make it.</p>
+      <form>
+        <input class="input border" type="text" placeholder="Name(s)" name="name">
+      </form>
+      <p><i>Sincerely, STEFAN & ELENA</i></p>
+      <div class="row">
+        <div class="half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="button block green">HAPPY TO JOIN</button>
+        </div>
+        <div class="half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="button block red">UNABLE TO JOIN</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
